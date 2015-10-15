@@ -22,11 +22,10 @@ def user_input():
 
     while True:
         try:
-            sides = int(raw_input("Number of Sides"))
+            sides = int(raw_input("How many sides?"))
         except:
             ValueError
             print ("Please provide an integer")
-            continue
         return int(sides)
 
 
@@ -72,4 +71,4 @@ def name_that_shape():
     else:
         print("Error")
 
-#name_that_shape()
+name_that_shape()
