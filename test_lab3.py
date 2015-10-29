@@ -35,7 +35,7 @@ def test_months_with_28_or_29():
     Test months with 28 or 29 days
     """
     for item in MONTHS_WITH_28_or_29:
-        assert days_in_month(item) == 28 or 29
+        assert days_in_month(item) == "28 or 29"
 
 # Write a test function for months that are not capitalized properly
 # Hint: use the lower() string method
