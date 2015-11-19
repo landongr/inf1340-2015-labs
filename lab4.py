@@ -38,4 +38,4 @@ def bill_of_sale(purchase):
         output_file.write("\nTotal tax: {0:.2f}".format(purchase * TOTAL_TAX))
         output_file.write("\nTotal sale: {0:.2f}".format(purchase * 1 + TOTAL_TAX))
 
-bill_of_sale(10)
+bill_of_sale(11)
