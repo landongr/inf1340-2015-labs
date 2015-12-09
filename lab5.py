@@ -76,10 +76,11 @@ class NameThatShapeGUI:
         # Display and info dialog box
         self.value.set(self.side_entry.get())
         tkMessageBox.showinfo("Response", self.side_entry.get())
-
+    # Create error msg
     def error_mesg(self):
         tkMessageBox.showinfo("Error", self.side_entry.get() + " is not valid input")
 
+    # Error window
     def convert(self):
         shape = name_that_shape(self.side_entry.get())
         if shape is None:
