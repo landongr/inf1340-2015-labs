@@ -29,7 +29,7 @@ def name_that_shape(sides):
             ValueError when input is < 3 or > 10
 
     """
-    #Some Changes made
+    # Some Changes made
     sides = str(sides)
     if sides.isdigit() or sides[0] is "-" and sides[1:].isdigit():
         sides = int(sides)
